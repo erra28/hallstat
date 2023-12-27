@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    text-decoration: none;
+    list-style: none;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0 , 0 ,0 ,0.5),rgba(0 , 0 ,0 ,0.5)), url(./Component\ 3\ –\ 1.png);
+}
+.bg{
+    z-index: -1;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 937px;
+    width: 1920px;
+}
+header{
+    width: 97%;
+    margin: 40px 8px;
+    align-items: center;
+    margin-top: 5px;
+    position: absolute;
+    position: absolute; 
+    top: 7px;
+    left: 50px;
+
+}
+.logo-container{
+    float: left;
+}
+
+.logo{
+    font-weight: 700;
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+    margin-right: 50px;
+    
+}
+.logoclick{
+    text-decoration: none;
+}
+
+.nav-link{ 
+    
+    color: white;
+    font-size: 17px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    float: center;
+    margin-top: 15px;
+    
+}
+.sign{
+    float: right;
+}
+.contact{
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  margin-right: 110px;
+  position: absolute;
+  top: 16px;
+  right: 100px;
+}
+.sign-in{
+    list-style: none;
+    margin-left:20px;
+}
+.login {
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 110px;
+    position: absolute;
+    top: 16px;
+    right: 40px;
+}
+
+.signupsvg{
+    z-index: -1;
+    position: absolute;
+    top: 14px;
+    right: 48px;
+}
+
+.signup{
+    font-weight: 400;
+    font-size: 10;
+    color:black;
+    font-size: 17px;
+    text-decoration: none;
+    position: absolute;
+    right: 63px;
+    top: 16px;
+}
+form {
+    margin: 160px 750px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 15px;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+  }
+  
+  .logintexts {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    font-weight: 800;
+  }
+  
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  .credits{
+    color: white;
+    bottom: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(225deg, rgba(2,0,36,1) 100%, rgba(41,69,129,1) 100%, rgba(75,103,152,1) 100%);
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.credits p{
+    margin-left: 600px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+    
+  }
+
+  @media screen and (max-width: 1800px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 23%;
+        float: center;
+        margin-top: 15px;
+    }
+    form {
+      float: right;
+      margin: 230px 600px;
+      background-color: white;
+      border-radius: 25px;
+      padding: 15px 15px;
+    }
+  }
+
+  @media screen and (max-width: 1700px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        float: center;
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1600px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        float: center;
+        margin-top: 15px;
+    }
+    form {
+      float: right;
+      margin: 230px 500px;
+      background-color: white;
+      border-radius: 25px;
+      padding: 15px 15px;
+    }
+  }
+  @media screen and (max-width: 1450px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        float: center;
+        margin-top: 15px;
+    }
+    form {
+      float: right;
+      margin: 230px 500px;
+      background-color: white;
+      border-radius: 25px;
+      padding: 15px 15px;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    form {
+      float: right;
+      margin: 230px 450px;
+      background-color: white;
+      border-radius: 25px;
+      padding: 15px 15px;
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 33%;
+        float: center;
+        margin-top: 15px;
+    }
+    form {
+      float: right;
+      margin: 230px 300px;
+      background-color: white;
+      border-radius: 25px;
+      padding: 15px 15px;
+    }
+  }
+
+  @media screen and (max-width: 1110px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 38%;
+        float: center;
+        margin-top: 15px;
+    }
+
+  }

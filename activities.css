@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(224, 229, 233);
+}
+header{
+    width: 97%;
+    margin: 40px 8px;
+    align-items: center;
+    margin-top: 5px;
+    position: absolute;
+    position: absolute; 
+    top: 7px;
+    left: 50px;
+
+}
+.logo-container{
+    float: left;
+}
+
+.logo{
+    font-weight: 700;
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+    margin-right: 50px;
+    
+}
+.logoclick{
+    text-decoration: none;
+}
+
+.nav-link{ 
+    color:black;
+    font-size: 17px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    float: center;
+    margin-top: 15px;
+}
+.sign{
+    float: right;
+}
+.contact{
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 110px;
+    position: absolute;
+    top: 16px;
+    right: 100px;
+}
+.sign-in{
+    list-style: none;
+    margin-left:20px;
+}
+.login {
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 110px;
+    position: absolute;
+    top: 16px;
+    right: 40px;
+}
+
+.signupsvg{
+    z-index: -1;
+    position: absolute;
+    top: 14px;
+    right: 48px;
+}
+
+.signup{
+    font-weight: 400;
+    font-size: 10;
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+    text-decoration: none;
+    position: absolute;
+    right: 63px;
+    top: 16px;
+}
+
+.credits{
+    color: white;
+    bottom: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(225deg, rgba(2,0,36,1) 100%, rgba(41,69,129,1) 100%, rgba(75,103,152,1) 100%);
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.credits p{
+    margin-left: 900px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+table{
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 1px;
+    }
+
+td img {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	position: relative;
+	margin: 1em auto;
+	max-width: 23em;
+	font: 1.25em ubuntu, sans-serif;
+    transition: transform 0.2s ease-in-out;
+}
+.ttext {
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: italic;
+    transition: font-weight 250ms ease-in-out;
+}
+.ttext:hover{
+    font-weight: 600;
+}
+
+img:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+th {
+    font-size: 40px;
+    position: relative;
+    cursor: pointer;
+}
+  
+th:hover {
+    text-decoration: underline;
+}
+
+th p {
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 1;
+}
+  
+@media screen and (max-width: 1800px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 23%;
+        float: center;
+        margin-top: 15px;
+    }
+    .credits p{
+        margin-left: 600px;
+        margin-top: 15px;
+        font-weight: 500;
+    }
+  }
+
+  @media screen and (max-width: 1700px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        float: center;
+        margin-top: 15px;
+    }
+  }
+  @media screen and (max-width: 1450px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        float: center;
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 33%;
+        float: center;
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1110px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 38%;
+        float: center;
+        margin-top: 15px;
+    }
+  }

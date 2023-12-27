@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    text-decoration: none;
+    list-style: none;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(224, 229, 233);
+}
+.bg{
+  z-index: -1;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 937px;
+  width: 1920px;
+}
+header{
+    width: 97%;
+    margin: 40px 8px;
+    align-items: center;
+    margin-top: 5px;
+    position: absolute;
+    position: absolute; 
+    top: 7px;
+    left: 50px;
+
+}
+
+.logo-container{
+    float: left;
+}
+
+.logo{
+    font-weight: 700;
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+    margin-right: 50px;
+    
+}
+.logoclick{
+    text-decoration: none;
+}
+
+.nav-link{ 
+    
+    color:black;
+    font-size: 17px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    float: center;
+    margin-top: 15px;
+}
+.sign{
+    float: right;
+}
+.contact{
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
+  margin-right: 110px;
+  position: absolute;
+  top: 16px;
+  right: 100px;
+}
+.sign-in{
+    list-style: none;
+    margin-left:20px;
+}
+.login {
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 110px;
+    position: absolute;
+    top: 16px;
+    right: 40px;
+}
+
+.signupsvg{
+    z-index: -1;
+    position: absolute;
+    top: 17px;
+    right: 49px;
+}
+
+.signup{
+    font-weight: 400;
+    font-size: 10;
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+    text-decoration: none;
+    position: absolute;
+    right: 63px;
+    top: 16px;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+  float:center;
+  margin-top: 70px;
+  margin-left:450px;
+}
+.credits{
+  color: white;
+  bottom: 15px;
+  background: rgb(2,0,36);
+  background: linear-gradient(225deg, rgba(2,0,36,1) 100%, rgba(41,69,129,1) 100%, rgba(75,103,152,1) 100%);
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+.credits p{
+  margin-left: 900px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+button:hover {
+  opacity: 0.8;
+}
+img:hover {
+  opacity: 0.8;
+}
+ 
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1800px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 23%;
+        float: center;
+        margin-top: 15px;
+    }
+    .credits p{
+        margin-left: 600px;
+        margin-top: 15px;
+        font-weight: 500;
+    }
+  }
+
+  @media screen and (max-width: 1700px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 25%;
+        float: center;
+        margin-top: 15px;
+    }
+  }
+  @media screen and (max-width: 1450px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        float: center;
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1250px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 33%;
+        float: center;
+        margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1110px) {
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 38%;
+        float: center;
+        margin-top: 15px;
+    }
+  }
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.column {
+  flex-basis: 33.33%;
+  max-width: 33.33%;
+  padding: 5px;
+  
+}
+.column img {
+  width: 100%;
+  margin-top: 5px;
+  vertical-align:auto;
+  height: auto;
+  cursor: pointer;
+} 
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fullscreen img {
+  max-width: 90%;
+  max-height: 90%;
+}
+.my-button {
+  margin-left: 560px;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  background: rgb(2,0,36);
+  background: linear-gradient(225deg, rgba(2,0,36,1) 100%, rgb(77, 96, 129) 100%);
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.my-button:hover {
+  opacity: 0.9;
+}
